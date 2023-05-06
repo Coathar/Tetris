@@ -1,0 +1,62 @@
+{
+	"C_Cpp.autocomplete": "Default",
+	"C_Cpp.intelliSenseEngine": "Default",
+	"C_Cpp.preferredPathSeparator": "Forward Slash",
+	"C_Cpp.workspaceParsingPriority": "highest",
+	"C_Cpp.enhancedColorization": "Disabled",
+	"debug.toolBarLocation": "docked",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"files.encoding": "utf8",
+	"files.trimTrailingWhitespace": true,
+	"files.eol": "\n",
+	"files.exclude": {
+		// "Makefile": true,
+		// "build.sh": true,
+		"gmon.out": true,
+		// "bin/": true,
+		// "build/": true,
+		"**/*.7z": true,
+		"**/*.rar": true,
+		"**/Thumbs.db": true
+	},
+	"files.associations": {
+		"*.workshop": "ostw",
+		"*.json": "jsonc",
+		"*.stats": "cpp",
+		"*.desktop": "properties",
+		".clang-format": "yaml",
+		"stack": "cpp",
+		"iostream": "cpp",
+		"array": "cpp",
+		"fstream": "cpp",
+		"optional": "cpp",
+		"sstream": "cpp",
+		"thread": "cpp",
+		"tuple": "cpp",
+		"chrono": "cpp",
+		"random": "cpp"
+	},
+	// "terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.env.windows": {
+		"Path": "C:/mingw32/bin;C:/SFML-2.5.1/bin"
+	},
+	"terminal.integrated.env.linux": {
+		"PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+	},
+	"terminal.integrated.env.osx": {
+		"PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+	},
+	"terminal.integrated.profiles.windows": {
+		"bash": {
+			"path": "C:/Program Files/Git/bin"
+		}
+	},
+	"terminal.integrated.shell.windows": {
+		"PATH": "C:/Program Files/Git/bin" // (or wherever your bash.exe is located)
+	},
+	"[applescript]": {
+		"files.encoding": "utf8"
+	},
+}
